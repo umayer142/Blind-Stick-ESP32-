@@ -1,9 +1,9 @@
 /* Blind Stick - ESP32 (browser-location map + live sensors + NTP RTC update) */
 
 /* Blynk 2.0 defines */
-#define BLYNK_TEMPLATE_ID "TMPL6jXnB7D5z"
+#define BLYNK_TEMPLATE_ID "xxxxxxxxxxxxxxxxxxxxxx"
 #define BLYNK_TEMPLATE_NAME "Blind Stick"
-#define BLYNK_AUTH_TOKEN "iFgFlhutzmjZ0wpYoDMqC-b-ov1IYWx3"
+#define BLYNK_AUTH_TOKEN "xxxxxxxxxxxxxxxxxxxxx"
 
 /* Libraries */
 #include <WiFi.h>
@@ -20,7 +20,7 @@
 
 /* WiFi & Blynk creds */
 char auth[] = BLYNK_AUTH_TOKEN;
-const char* ssid = "Siyam";
+const char* ssid = "xxxxxxxxxxxx";
 const char* pass = "999666333";
 
 /* Pin definitions */
@@ -319,3 +319,4 @@ void loop() {
 
   delay(10);
 }
+
