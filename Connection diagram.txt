@@ -1,0 +1,31 @@
+
+          ┌────────────────────────────────
+          │                 ESP32                     │
+          │                                           │
+          │  3V3  ───────────── VL53L0X (VIN)     
+          │  5V   ───────────── GPS (VCC)          
+          │         └────────── DFPlayer (VCC)    │
+          │                                           │
+          │  GND  ───────────── All GND points   │
+          │                                           │
+          │  GPIO 5   → Ultrasonic TRIG               │
+          │  GPIO 18  → Ultrasonic ECHO               │
+          │                                           │
+          │  GPIO 21  → VL53L0X SDA                   │
+          │  GPIO 22  → VL53L0X SCL                   │
+          │                                           │
+          │  GPIO 34  → Flame Sensor A0               │
+          │  GPIO 35  → Soil Sensor A0                │
+          │                                           │
+          │  GPIO 23  → Buzzer +                      │
+          │  GPIO 19  → Vibration Motor +             │
+          │                                           │
+          │  GPIO 25  → SOS Button (other → GND)      │
+          │  GPIO 4   → Time Button (other → GND)     │
+          │                                           │
+          │  GPIO 16  ← GPS TX                        │
+          │  GPIO 17  → GPS RX                        │
+          │                                           │
+          │  GPIO 13  ← DFPlayer TX                   │
+          │  GPIO 14  → DFPlayer RX (use 1K resistor) │
+          └────────────────────────────────
